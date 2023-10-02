@@ -4,7 +4,7 @@ import "github.com/tencent-connect/botgo/dto"
 
 // CreateLinkTextListTemplate 创建链接+文本列表模板
 // obj -> {{Key: "desc/link", Value: "text/linkText,}, {}...}
-func createLinkTextListTemplate(
+func CreateLinkTextListTemplate(
 	desc string,
 	tips string,
 	obj []*dto.ArkObjKV,

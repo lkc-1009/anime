@@ -3,7 +3,7 @@ package template
 import "github.com/tencent-connect/botgo/dto"
 
 // CreateBigPicTemplate 创建大图模板
-func createBigPicTemplate(
+func CreateBigPicTemplate(
 	tips string,
 	title string,
 	subTitle string,

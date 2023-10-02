@@ -3,7 +3,7 @@ package template
 import "github.com/tencent-connect/botgo/dto"
 
 // CreateTextSmallPicTemplate 创建文本+缩略图模板
-func createTextSmallPicTemplate(
+func CreateTextSmallPicTemplate(
 	desc string,
 	tips string,
 	title string,
@@ -46,4 +46,3 @@ func createTextSmallPicTemplate(
 		},
 	}
 }
-
